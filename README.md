@@ -1,25 +1,21 @@
-# Alternative Formats LFlist for Edo Pro
+# Alternative Formats LFList for Edo Pro
 
-## How to use
+## How to Use
 
-### Download the LFlists
+### Download the LFLists
+You can download the LFLists and add them to the `lflists` folder in your EdoPro directory.
 
-You can download the LFlists and add them to `lflists` folder, inside EdoPro's
+### Add the Repository Configuration
+You can utilize the provided `config.example.json`. Here's how to configure it:
 
-### Add the repository configuration
+1. Open the `configs.json` file located in: `(EdoPro's folder)/config/configs.json`.
+2. After the last repository entry inside `repos`, insert a comma `,` after the closing brace `}` and then add the contents from `config.example.json`.
+3. Save the changes and restart EdoPro.
 
-You can use the `config.example.json`:
+## How to Contribute
 
-1- Open the `configs.json` located on: `(EdoPro's folder)/config/configs.json`
+1. Create a new branch.
+2. Add the banlist file inside the `lflists` folder.
+3. Create a Pull Request (PR) targeting the master branch, including the link to the formats that you want to add.
 
-2- After the last repository, inside `repos`, put a `,` after `}` and add teh content inside `config.example.json`
-
-3- Close and open the EdoPro
-
-## How to help
-
-1 - Create a new branch
-
-2- Add the banlist inside lflists
-
-3- Create a PR for `master`, with the link from the formats that you want to add
+Thank you for contributing to the Edo Pro Alternative Formats LFList!
